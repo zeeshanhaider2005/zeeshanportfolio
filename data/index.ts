@@ -90,29 +90,30 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Urban Realtors",
-    des: "The real estate website that is very helpfull for clients for find the best prices of land.",
+    title: "Shoaib Projects",
+    des: "Company website that is very helpfull for clients for find the best services.",
     img: "/urban.PNG",
-    pin: "Real Estate",
+    pin: "Company Website",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://www.urbanrealtorsllc.com/",
+    link: "https://www.shoaibprojects.com/",
   },
   {
     id: 4,
+    title: "Business Solutions",
+    des: "Personel business website.",
+    img: "/notion.PNG",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://business-solutions-ltd.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Trading Website",
     des: "Trading platform for users for trading. Integrated with Jecko Lab Api.",
     img: "/coin.PNG",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "Trading Platform",
   },
-  {
-    id: 5,
-    title: "Notion",
-    des: "Personel enhancement tool for future productivity.",
-    img: "/notion.PNG",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://noble-hazel.vercel.app/",
-  },
+  
 ];
 
 export const testimonials = [
