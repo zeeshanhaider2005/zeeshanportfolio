@@ -10,11 +10,11 @@ import Image from "next/image";
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
+      <h2 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
-      </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center justify-center p-4 gap-16 mt-7">
         {projects.map((item) => (
           <Link
             href={item.link}
@@ -30,11 +30,11 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                 <Image 
-                      fill src="/bg.png" alt="bgimg" />
+                  <Image
+                    fill src="/bg.png" alt="bgimg" />
                 </div>
-                <Image 
-                      fill
+                <Image
+                  fill
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
@@ -65,10 +65,10 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <Image 
-                      width={100}
-                      height={100}
-                       src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        width={100}
+                        height={100}
+                        src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>

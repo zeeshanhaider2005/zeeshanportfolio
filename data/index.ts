@@ -78,7 +78,7 @@ export const projects = [
     img: "/performerUI.PNG",
     pin: "Performers",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://loud-seven.vercel.app/",
+    link: "https://www.gonstrip.com",
   },
   {
     id: 2,
@@ -108,13 +108,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Trading Website",
-    des: "Trading platform for users for trading. Integrated with Jecko Lab Api.",
-    img: "/coin.PNG",
+    title: "Marketing Agency",
+    des: "Software development, Graphic design, Video editing agency.",
+    img: "/black.PNG",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "Trading Platform",
+    link: "https://www.blackstone-media.uk",
   },
-  
+
 ];
 
 export const testimonials = [
@@ -220,5 +220,23 @@ export const socialMedia = [
     id: 1,
     img: "/link.svg",
     link: "www.linkedin.com/in/zeeshan-haider-mern-0a77aa363"
+  },
+];
+
+
+export const internships = [
+  {
+    id: 1,
+    company: "Shoaib Projects LTD",
+    image: "/shoaib_intern.PNG", // add company logo here
+    file: "/Shoaib Projects Internships.pdf",
+    fileType: "pdf",
+  },
+  {
+    id: 2,
+    company: "Insteva",
+    image: "/insteav_intern.jpeg", // add company logo here
+    file: "/insteav_intern.jpeg", // your image file
+    fileType: "image",
   },
 ];
