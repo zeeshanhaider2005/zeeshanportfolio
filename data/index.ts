@@ -118,9 +118,9 @@ export const projects = [
     id: 6,
     title: "VV Digital",
     des: "Modren Software for the warehouse management.",
-    img: "/black.PNG",
+    img: "/vvdidtal.PNG",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.blackstone-media.uk",
+    link: "https://vvdigitals.netlify.app/",
   },
 
 ];
