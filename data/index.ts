@@ -67,7 +67,7 @@ export const gridItems = [
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
-  },
+  }
 ];
 
 export const projects = [
@@ -121,6 +121,14 @@ export const projects = [
     img: "/vvdidtal.PNG",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://vvdigitals.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Staff Thriver",
+    des: "Human Resource management.",
+    img: "https://res.cloudinary.com/dhac4a3ja/image/upload/v1778349125/staff_wck6ds.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://staffthriver.com/",
   },
 
 ];
