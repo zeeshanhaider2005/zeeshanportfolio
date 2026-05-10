@@ -72,15 +72,6 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Performers Website",
-    des: "Explore the best Performers of World that can fill your event needs and your heart.",
-    img: "/performerUI.PNG",
-    pin: "Performers",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.gonstrip.com",
-  },
-  {
     id: 2,
     title: "INSTARTA",
     des: "This website helps hotel owners and customers to find the current rates and the best prices.",
